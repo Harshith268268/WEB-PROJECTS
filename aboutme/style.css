@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Vertical Navigation */
+  nav {
+    background: #333;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 2rem;
+  }
+  
+  nav a {
+    color: white;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Main Content */
+  main {
+    margin-left: 220px; /* This pushes the content to the right to avoid overlap with the nav */
+    padding: 2rem;
+  }
+  
+  /* Sections */
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .profile{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  /* Projects */
+  .project {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    nav {
+      width: 100%;
+      position: relative;
+      top: 0;
+    }
+    main {
+      margin-left: 0;
+    }
+  }
+  
